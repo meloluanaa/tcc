@@ -1,0 +1,76 @@
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalContainer {
+  background-color: rgb(242, 242, 242);
+  border-radius: 8px;
+  width: 100%;
+  max-width: 800px;
+  height: 500px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.modalHeader {
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.modalTitle{
+    background-color: #051D40;
+    padding: 20px;
+    width: 100%;
+    margin: 0;
+}
+
+.modalCloseBtn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: black;
+}
+
+.modalContent {
+  padding: 16px;
+  max-height: 60vh;
+  overflow-y: auto;
+}
+
+.modalFooter {
+  padding: 16px;
+  border-top: 1px solid #eee;
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px; /*distancia entre os botôes*/
+}
+
+.modalCancelBtn {
+  padding: 8px 16px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  color: black;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modalConfirmBtn {
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

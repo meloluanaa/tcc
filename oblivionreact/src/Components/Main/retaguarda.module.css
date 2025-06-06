@@ -1,0 +1,207 @@
+.dashboard{
+  background-color: #f2efeb;
+}
+
+/* Top Menu */
+.topMenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 200;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+  background-color: #051b3d;
+  color: white;
+  padding: 0 0px;
+}
+
+/* Logo */
+.logo {
+    margin: 100px;
+    width: 60px;
+    height: 60px; /* de acordo com o height do topMenu*/
+    max-width: 100%;
+}
+
+/* Botão da conta */
+.accountBtn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ffc107; /* Cor amarela */
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.modal {
+  margin-top: 500px;
+  padding: 0.5px;
+  background-color: #051b3d;
+}
+
+.btnModalCont {
+  padding: 60px;
+  background-color: rgb(255, 255, 255);
+}
+
+
+.labelCont{
+  margin: 10;
+  color: black;
+}
+
+.inputCont{
+  background-color: rgb(176, 176, 176);
+  border-radius: 3px;
+  border-color: purple;
+  padding: 2px;
+}
+
+
+.closeBtn {
+  background-color: red;
+  padding: 6px;
+  cursor: pointer;
+}
+
+.saveBtn {
+  background-color: green;
+  padding: 9px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+/*conteúdo principal*/
+.container {
+  padding: 40px;
+  margin-left: 200px; /* Espaço para o menu lateral */
+  background-color: #efeaea;
+ 
+  width: 550px; /* Largura total menos o menu lateral */
+}
+
+.containerContent {
+  color: black;
+  background-color: #fafafa;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 940px;
+  height: 100%;
+  width: 100%;
+  max-width: 950px; /* Largura máxima do conteúdo */
+  margin: 50px; /* Centraliza horizontalmente */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.containerButton{
+  margin: 15px;
+  display: flex;
+}
+
+#btnCategoria{
+  margin: 10px;
+  padding: 20px 30px;
+  background-color: green;
+  border-radius: 10px;
+  box-shadow: none;
+  border: 20px;
+  height: 50px;
+  cursor: pointer;
+  font-size: medium;
+}
+
+#btnCategoria:hover{
+  background-color: rgb(112, 164, 112);
+}
+
+#btnProduto{
+  margin: 10px;
+  padding: 20px 30px;
+  border-radius: 10px;
+  border: 20px;
+  height: 50px;
+  background-color: #3181E4;
+  cursor: pointer;
+  font-size: medium;
+}
+
+#btnProduto:hover{
+  background-color: #698bb5;
+}
+
+hr {
+  padding: 0.1px;
+  background-color: rgb(190, 190, 190);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Menu Lateral */
+.leftMenu {
+  position: fixed;
+  top: 70px;
+  left: 0;
+  width: 210px;
+  height: 100vh;
+  background-color: #fafafa;
+  border-right: 1px solid #eee;
+  padding-top: 20px; 
+}
+
+/* Lista do menu */
+.leftMenu ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* Itens do menu */
+.menuItem a {
+  display: block;
+  padding: 15px 20px;
+  font-size: 16px;
+  color: #222;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+/* Hover */
+.menuItem a:hover {
+  background-color: #e2eaf0;
+  border-left: 4px solid #3181E4;
+  padding-left: 16px;
+}
+
+/* Submenu (se houver) */
+.submenu {
+  display: none;
+  background-color: #f8f9fa;
+}
+
+.submenu a {
+  padding: 10px 30px;
+  font-size: 14px;
+}

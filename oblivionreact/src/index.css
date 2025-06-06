@@ -1,0 +1,53 @@
+
+  /*Cabeçalho da loja */
+ 
+  
+  /* Cabeçalho superior com fundo verde */
+  .top-header {
+    background-color: #8ec492;
+    color: white;
+    padding: 30px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  /* Seção do cabeçalho */
+  .header-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  /* Ícones do Material Design */
+  .material-symbols-outlined {
+    font-size: 28px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* Container dos ícones à direita */
+  .header-icons-right {
+    display: flex;
+    gap: 15px;
+  }
+  
+  /* Container principal do cabeçalho */
+  .header-container {
+    position: relative;
+    margin-bottom: 40px;
+  }
+  
+  /* Centro do cabeçalho (caixa branca) */
+  .header-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    width: 750px;
+    padding: 20px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 2px 2px 2px #ebebeb;
+  }
